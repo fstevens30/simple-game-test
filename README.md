@@ -1,2 +1,2 @@
-# idle-game-test
-Building a simple idle game
+# Building a game
+Building a simple web game using JavaScript
