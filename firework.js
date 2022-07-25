@@ -22,7 +22,7 @@
     attachEventListeners()
     loop()
   }
-})()
+
 
 const attachEventListeners = () => {
   canvas.addEventListener('mousemove', e => {
@@ -229,3 +229,5 @@ function Particle (x, y) {
     particles[particleIndex].draw(particleIndex)
   }
 }
+
+})();

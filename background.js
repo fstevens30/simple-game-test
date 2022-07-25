@@ -8,7 +8,7 @@
   //set canvas to full screen
   canvas.width = width
   canvas.height = height
-})()
+
 
 //Creating a gradient background
 const drawBackground = () => {
@@ -66,3 +66,4 @@ const drawStars = () => {
     context.fillRect(x, y, size, size)
   }
 }
+})()
