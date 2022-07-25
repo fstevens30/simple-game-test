@@ -31,7 +31,7 @@ const drawForeground = () => {
 
 const drawSus = () => {
     const image = new Image();
-    image.src = './images/sus.png';
+    image.src = './assets/sus.png';
 
     image.onload = function () {
         /**
