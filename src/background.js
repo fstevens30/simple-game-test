@@ -21,3 +21,10 @@ const drawBackground = () => {
     context.fillRect(0, 0, width, height);
 };
 
+const drawForeground = () => {
+    context.fillStyle = '#FF69EB';
+    context.fillRect(0, height * .95, width, height);
+
+    context.fillStyle = '#FFDC5E';
+    context.fillRect(0, height * .955, width, height);
+};
