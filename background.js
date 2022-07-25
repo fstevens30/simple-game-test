@@ -42,3 +42,23 @@ const drawSus = () => {
         context.drawImage(this, (width * .9) - this.width, (height * .95) - this.height);
     };
 };
+
+//stars setup
+const numberOfStars = 100;
+const random = (min, max) => Math.random() * (max - min) + min;
+
+//drawing stars
+
+const drawStars = () => {
+    let starCount = numberOfStars;
+
+    context.fillStyle = '#fff';
+
+    while (starCount--) {
+        const x = random(25, width - 50);
+        const y = random(25, height * .5);
+        const size = random(1, 8);
+
+        context.fillRect(x, y, size, size);
+    }
+};
