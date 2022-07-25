@@ -28,3 +28,4 @@ const drawForeground = () => {
     context.fillStyle = '#FFDC5E';
     context.fillRect(0, height * .955, width, height);
 };
+
