@@ -29,3 +29,16 @@ const drawForeground = () => {
     context.fillRect(0, height * .955, width, height);
 };
 
+const drawSus = () => {
+    const image = new Image();
+    image.src = './images/sus.png';
+
+    image.onload = function () {
+        /**
+         * this - references the image object
+         * draw at 90% of the width of the canvas - the width of the image
+         * draw at 95% of the height of the canvas - the height of the image 
+         */
+        context.drawImage(this, (width * .9) - this.width, (height * .95) - this.height);
+    };
+};
